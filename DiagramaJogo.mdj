@@ -3436,6 +3436,217 @@
 					]
 				}
 			]
+		},
+		{
+			"_type": "FCFlowchart",
+			"_id": "AAAAAAGP74TcoCRUF3g=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Flowchart1",
+			"ownedElements": [
+				{
+					"_type": "FCFlowchartDiagram",
+					"_id": "AAAAAAGP74TcoSRVp8Q=",
+					"_parent": {
+						"$ref": "AAAAAAGP74TcoCRUF3g="
+					},
+					"name": "Game_Flow",
+					"ownedViews": [
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGP74cSZCRs/2c=",
+							"_parent": {
+								"$ref": "AAAAAAGP74TcoSRVp8Q="
+							},
+							"font": "Arial;13;0",
+							"left": 696,
+							"top": 32,
+							"width": 352,
+							"height": 160,
+							"text": "main.py"
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGP74cpryRwo4I=",
+							"_parent": {
+								"$ref": "AAAAAAGP74TcoSRVp8Q="
+							},
+							"font": "Arial;13;0",
+							"left": 720,
+							"top": 264,
+							"width": 240,
+							"height": 488,
+							"text": "Game.py"
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGP74dBtyR06OU=",
+							"_parent": {
+								"$ref": "AAAAAAGP74TcoSRVp8Q="
+							},
+							"font": "Arial;13;0",
+							"left": 1008,
+							"top": 264,
+							"width": 256,
+							"height": 488,
+							"text": "Level.py"
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGP74dXlSR4pFM=",
+							"_parent": {
+								"$ref": "AAAAAAGP74TcoSRVp8Q="
+							},
+							"font": "Arial;13;0",
+							"left": 424,
+							"top": 264,
+							"width": 240,
+							"height": 488,
+							"text": "Menu.py"
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGP74jP3SSfLcI=",
+							"_parent": {
+								"$ref": "AAAAAAGP74TcoSRVp8Q="
+							},
+							"model": {
+								"$ref": "AAAAAAGP74jP3SSdBFg="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGP74jP3SSgRp4=",
+									"_parent": {
+										"$ref": "AAAAAAGP74jP3SSfLcI="
+									},
+									"font": "Arial;13;0",
+									"left": 722,
+									"top": 74,
+									"width": 108,
+									"height": 13,
+									"text": "game = Game()",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 712,
+							"top": 64,
+							"width": 128,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGP74jP3SSgRp4="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGP74mbCSSsYDw=",
+							"_parent": {
+								"$ref": "AAAAAAGP74TcoSRVp8Q="
+							},
+							"model": {
+								"$ref": "AAAAAAGP74mbCSSqrEU="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGP74mbCSStAgE=",
+									"_parent": {
+										"$ref": "AAAAAAGP74mbCSSsYDw="
+									},
+									"font": "Arial;13;0",
+									"left": 914,
+									"top": 74,
+									"width": 84,
+									"height": 13,
+									"text": "game.run()",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 904,
+							"top": 64,
+							"width": 104,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGP74mbCSStAgE="
+							}
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGP741i3yTfn8Y=",
+							"_parent": {
+								"$ref": "AAAAAAGP74TcoSRVp8Q="
+							},
+							"font": "Arial;13;0",
+							"left": 728,
+							"top": 288,
+							"width": 224,
+							"height": 96,
+							"text": "__init__()"
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGP7435oSTorlw=",
+							"_parent": {
+								"$ref": "AAAAAAGP74TcoSRVp8Q="
+							},
+							"model": {
+								"$ref": "AAAAAAGP7435oSTmDWA="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGP7435oSTpYjw=",
+									"_parent": {
+										"$ref": "AAAAAAGP7435oSTorlw="
+									},
+									"font": "Arial;13;0",
+									"left": 754,
+									"top": 330,
+									"width": 162.32861328125,
+									"height": 26,
+									"text": "windows = pygame.display.setmode(...)",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 744,
+							"top": 320,
+							"width": 182.32861328125,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAGP7435oSTpYjw="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGP74jP3SSdBFg=",
+					"_parent": {
+						"$ref": "AAAAAAGP74TcoCRUF3g="
+					},
+					"name": "game = Game()"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGP74mbCSSqrEU=",
+					"_parent": {
+						"$ref": "AAAAAAGP74TcoCRUF3g="
+					},
+					"name": "game.run()"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGP7435oSTmDWA=",
+					"_parent": {
+						"$ref": "AAAAAAGP74TcoCRUF3g="
+					},
+					"name": "windows = pygame.display.setmode(...)"
+				}
+			]
 		}
 	],
 	"author": "Lucas"
